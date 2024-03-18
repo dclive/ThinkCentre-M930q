@@ -29,7 +29,7 @@
 
 Intel WLAN Notice: 
  - You need to match `AirportItlwm.kext` to your macOS version.
- - The default `AirportItlwm.kext` works on Ventura only.  If you're using another OS, download the correct version of `AirportItlwm.kext` fot that OS.    
+ - The default `AirportItlwm.kext` works on Ventura only.  If you're using another MacOS version, download the correct version of `AirportItlwm.kext` for that OS, and/or keep `AirportItlwm.kext` disabled while updating MacOS versions.    
 
 
 ### Spec
@@ -74,8 +74,8 @@ Startup
 ```
 
 ### Notes
- - Use [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) to build your SMBIOS [serial numbers, etc.]
- - U Must Use CFGLock.efi Tool Unlock CFG LOCK first.  To see this menu, press SPACE BAR at the OpenCore pick screen.
+ - Use [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) to build your SMBIOS [serial numbers]
+ - You must Use CFGLock.efi Tool to Unlock CFG LOCK first.  To see this menu, press SPACE BAR at the OpenCore pick screen.  You'll "flip the bit" so that the value is "0"; this requires selecting the highlighted icon, then selecting "Y" to flip the bit to 0.
 ![image](Screenshot/CFGLock.efi.png)
 
 ### Screenshot
