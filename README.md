@@ -76,7 +76,7 @@ Startup
 ### Notes
  - Use [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) to build your SMBIOS [serial numbers]
  - You must Use CFGLock.efi Tool to Unlock CFG LOCK first.  To see this menu, press SPACE BAR at the OpenCore pick screen.  You'll "flip the bit" so that the value is "0"; this requires selecting the highlighted icon, then selecting "Y" to flip the bit to 0.
- - Note for Sonoma 14.4: You must change SECUREBOOTMODE to DISABLED in order to successfully install/upgrade to MacOS 14.4.  You can safely leave the mode at DISABLED. ![image](Screenshot/CFGLock.efi.png)
+ - Note for Sonoma 14.4: You must change SECUREBOOTMODEL (in Misc/Security/SecureBootModel) to DISABLED in order to successfully install/upgrade to MacOS 14.4.  You can safely leave the mode at DISABLED. ![image](Screenshot/CFGLock.efi.png)
 
 ### Screenshot
 
